@@ -1,0 +1,3274 @@
+{
+    "name": "Magnetic Monopole",
+    "properties": {
+      "background_color": [
+        "191",
+        "0",
+        "255",
+        125
+      ],
+      "title_stroke_color": "#bf00ff",
+      "friction": 0.75,
+      "magnetism": true
+    },
+    "areas": [
+      {
+        "x": 0,
+        "y": 50000,
+        "zones": [
+          {
+            "translate": {
+              "x": 0,
+              "y": -1050
+            },
+            "type": "teleport",
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 32
+          },
+          {
+            "translate": {
+              "x": 0,
+              "y": 1200
+            },
+            "type": "teleport",
+            "x": 0,
+            "y": 160,
+            "width": 320,
+            "height": 32
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": 32,
+            "width": 320,
+            "height": 128
+          },
+          {
+            "type": "safe",
+            "x": 320,
+            "y": 0,
+            "width": 32,
+            "height": 192
+          },
+          {
+            "type": "active",
+            "x": 352,
+            "y": 0,
+            "width": 2560,
+            "height": 192,
+            "spawner": [
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 2.5,
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2912,
+            "y": 0,
+            "width": 256,
+            "height": 192
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3168,
+            "y": 0,
+            "width": 64,
+            "height": 192
+          },
+          {
+            "translate": {
+              "x": 512,
+              "y": 115648
+            },
+            "type": "exit",
+            "x": 1600,
+            "y": 0,
+            "width": 32,
+            "height": 32
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 3232,
+        "y": 0,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 1,
+                "count": 6
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 4,
+                "count": 3
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 1,
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 6432,
+        "y": 0,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 1.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 0.5,
+                "count": 4
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 36,
+                "speed": 2.5,
+                "count": 2
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 2,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 9632,
+        "y": 0,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 1.5,
+                "count": 8
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 48,
+                "speed": 1.5,
+                "count": 4
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 7,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 12832,
+        "y": 0,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 9,
+                "speed": 2,
+                "count": 8
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 2.5,
+                "count": 10
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 16032,
+        "y": 0,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 36,
+                "speed": 7,
+                "count": 4
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 7,
+                "speed": 1,
+                "count": 9
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 1,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 19232,
+        "y": 0,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 320
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": 320,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "type": "active",
+            "x": 0,
+            "y": 352,
+            "width": 352,
+            "height": 2560,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 4,
+                "count": 5
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 12,
+                "speed": 1,
+                "count": 8
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 70,
+                "speed": 2,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": 2912,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 288,
+            "y": 2912,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 288,
+            "y": 2944,
+            "width": 64,
+            "height": 320
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 19584,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 2,
+                "count": 4
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 18,
+                "speed": 1,
+                "count": 3
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 2,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 22784,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 18,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 4,
+                "count": 5
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 5,
+                "count": 1
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 18,
+                "speed": 2,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 25984,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 6,
+                "count": 5
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 30,
+                "speed": 2,
+                "count": 4
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 6,
+                "count": 2
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 30,
+                "speed": 2,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 29184,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 18,
+                "speed": 5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 4,
+                "count": 2
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 30,
+                "speed": 3,
+                "count": 2
+              },
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 36,
+                "speed": 2,
+                "count": 1
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 7,
+                "count": 1
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 18,
+                "speed": 6.5,
+                "count": 1
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 24,
+                "speed": 5.5,
+                "count": 1
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 30,
+                "speed": 4.5,
+                "count": 1
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 36,
+                "speed": 3.5,
+                "count": 1
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 32384,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 9,
+                "count": 5
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 24,
+                "speed": 2,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 35584,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 30,
+                "speed": 1,
+                "count": 8
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 30,
+                "speed": 11,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 38784,
+        "y": 111424,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 320
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": -32,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": -32,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "type": "active",
+            "x": 0,
+            "y": -2592,
+            "width": 352,
+            "height": 2560,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 5,
+                "count": 4
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 42,
+                "speed": 4,
+                "count": 2
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 70,
+                "speed": 2,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 4.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": -2944,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 288,
+            "y": -2624,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 288,
+            "y": -2944,
+            "width": 64,
+            "height": 320
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 39136,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 54,
+                "speed": 3,
+                "count": 2
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 30,
+                "speed": 5,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 42336,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 4,
+                "count": 6
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 4,
+                "count": 1
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 4,
+                "count": 1
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 45536,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 3,
+                "count": 8
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 36,
+                "speed": 3,
+                "count": 1
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 48736,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 8,
+                "speed": 3,
+                "count": 13
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 10,
+                "speed": 5,
+                "count": 2
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 10,
+                "speed": 5,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 51936,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 6,
+                "count": 9
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 18,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 36,
+                "speed": 8,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 55136,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 1.5,
+                "count": 15
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 36,
+                "speed": 10,
+                "count": 1
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 36,
+                "speed": 10,
+                "count": 1
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 58336,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 320
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": 320,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "type": "active",
+            "x": 0,
+            "y": 352,
+            "width": 352,
+            "height": 2560,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 6,
+                "count": 4
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 24,
+                "speed": 4,
+                "count": 2
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 24,
+                "speed": 4,
+                "count": 1
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 70,
+                "speed": 2,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": 2912,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 288,
+            "y": 2912,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 288,
+            "y": 2944,
+            "width": 64,
+            "height": 320
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 58688,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 2,
+                "count": 5
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 2,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 61888,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 18,
+                "speed": 0.5,
+                "count": 5
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 3,
+                "count": 6
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 3,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 65088,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 4.5,
+                "count": 10
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 9,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 68288,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 24,
+                "speed": 2,
+                "count": 5
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 36,
+                "speed": 3,
+                "count": 4
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 2,
+                "count": 6
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 71488,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 9,
+                "speed": 7,
+                "count": 4
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 11,
+                "count": 2
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 7,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 74688,
+        "y": 111392,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 2560,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 15,
+                "speed": 5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 15,
+                "speed": 5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 15,
+                "speed": 5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 2880,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3136,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 77888,
+        "y": 111424,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 320
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": -32,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": -32,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "type": "active",
+            "x": 0,
+            "y": -2592,
+            "width": 352,
+            "height": 2560,
+            "spawner": [
+              {
+                "types": [
+                  "normal"
+                ],
+                "radius": 12,
+                "speed": 7,
+                "count": 2
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 4,
+                "count": 10
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 7,
+                "count": 2
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 7,
+                "count": 2
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 70,
+                "speed": 3,
+                "count": 2
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 7.5,
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": -2944,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 288,
+            "y": -2624,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 288,
+            "y": -2944,
+            "width": 64,
+            "height": 320
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 78240,
+        "y": 108480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 64,
+            "y": 0,
+            "width": 2976,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 0,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 3040,
+            "y": 0,
+            "width": 160,
+            "height": 352
+          }
+        ],
+        "assets": []
+      },
+      {
+        "x": 1952,
+        "y": 115392,
+        "zones": [
+          {
+            "type": "safe",
+            "x": 0,
+            "y": 0,
+            "width": 352,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 0,
+            "y": -2560,
+            "width": 352,
+            "height": 2560,
+            "spawner": [
+              {
+                "types": [
+                  "spiral"
+                ],
+                "radius": 12,
+                "speed": 3,
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 0,
+            "y": -2912,
+            "width": 288,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 288,
+            "y": -2592,
+            "width": 64,
+            "height": 32
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 288,
+            "y": -2912,
+            "width": 64,
+            "height": 320
+          }
+        ],
+        "assets": [],
+        "properties": {
+          "background_color": [
+            225,
+            225,
+            0,
+            125
+          ]
+        },
+        "name": "Dipole 1"
+      },
+      {
+        "x": 2304,
+        "y": 112480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 5120,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "gravity"
+                ],
+                "radius": 12,
+                "speed": 11,
+                "count": 5
+              },
+              {
+                "types": [
+                  "magnetic_reduction"
+                ],
+                "radius": 6,
+                "speed": 11,
+                "count": 15
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 5440,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 5696,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": [],
+        "properties": {
+          "background_color": [
+            "225",
+            "225",
+            "0",
+            "125"
+          ]
+        },
+        "name": "Dipole 2"
+      },
+      {
+        "x": 8064,
+        "y": 112480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 5120,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "slowing"
+                ],
+                "radius": 12,
+                "speed": 11,
+                "count": 5
+              },
+              {
+                "types": [
+                  "positive_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 11,
+                "count": 15
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 5440,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 5696,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": [],
+        "properties": {
+          "background_color": [
+            "225",
+            "225",
+            "0",
+            "125"
+          ]
+        },
+        "name": "Dipole 3"
+      },
+      {
+        "x": 13824,
+        "y": 112480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 5120,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "draining"
+                ],
+                "radius": 12,
+                "speed": 12,
+                "count": 3
+              },
+              {
+                "types": [
+                  "negative_magnetic_sniper"
+                ],
+                "radius": 12,
+                "speed": 12,
+                "count": 17
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 5440,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 5696,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": [],
+        "properties": {
+          "background_color": [
+            "225",
+            "225",
+            "0",
+            "125"
+          ]
+        },
+        "name": "Dipole 4"
+      },
+      {
+        "x": 19584,
+        "y": 112480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          },
+          {
+            "type": "safe",
+            "x": 64,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "type": "active",
+            "x": 320,
+            "y": 0,
+            "width": 5120,
+            "height": 352,
+            "spawner": [
+              {
+                "types": [
+                  "poison_sniper"
+                ],
+                "radius": 12,
+                "speed": 12,
+                "count": 3
+              },
+              {
+                "types": [
+                  "magnetic_nullification"
+                ],
+                "radius": 6,
+                "speed": 12,
+                "count": 17
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 3,
+                "count": 5
+              },
+              {
+                "types": [
+                  "wall"
+                ],
+                "radius": 15,
+                "speed": 6,
+                "count": 5
+              }
+            ]
+          },
+          {
+            "type": "safe",
+            "x": 5440,
+            "y": 0,
+            "width": 256,
+            "height": 352
+          },
+          {
+            "translate": {
+              "x": 160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 5696,
+            "y": 0,
+            "width": 64,
+            "height": 352
+          }
+        ],
+        "assets": [],
+        "properties": {
+          "background_color": [
+            "225",
+            "225",
+            "0",
+            "125"
+          ]
+        },
+        "name": "Dipole 5"
+      },
+      {
+        "x": 25344,
+        "y": 112480,
+        "zones": [
+          {
+            "translate": {
+              "x": -160,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 0,
+            "width": 64,
+            "height": 320
+          },
+          {
+            "type": "active",
+            "x": 0,
+            "y": 0,
+            "width": 352,
+            "height": 3104
+          },
+          {
+            "translate": {
+              "x": 0,
+              "y": 0
+            },
+            "type": "exit",
+            "x": 0,
+            "y": 3104,
+            "width": 352,
+            "height": 160
+          }
+        ],
+        "assets": [],
+        "properties": {
+          "background_color": [
+            "225",
+            "225",
+            "0",
+            "125"
+          ]
+        }
+      }
+    ]
+  }
