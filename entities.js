@@ -254,6 +254,8 @@ class Player {
     this.effectImmune = 1;
     this.effectReplayer = 1;
     this.burningTimer = 0;
+    this.shrinking_player_Timer = 0; //added 07.02.2024
+    this.recover_shrinkage = 0; //added 07.02.2024
     this.stickness = 0;
     this.stickyTrailTimer = 0;
     this.sticky = false;
@@ -662,6 +664,28 @@ class Player {
     } else {
       this.burningTimer = Math.max(0,this.burningTimer-time)
     }
+    if(this.shrink_player) { //07.02.2024
+      this.shrinking_player_Timer+=time*this.effectImmune/this.effectReplayer;
+      this.recover_shrinkage+=time*this.effectImmune/this.effectReplayer;
+      this.radiusAdditioner = (15/this.effectReplayer)/32 - 0.1*Math.ceil(this.shrinking_player_Timer/800);
+      // this.radiusAdditioner = (15/this.effectReplayer)/32 - this.shrinking_player_Timer/5000;
+      if(this.radius<0.1){
+        this.radius = 15 / 16 / 2;
+        this.shrinking_player_Timer=0;
+        this.recover_shrinkage=0;
+        death(this);
+
+      }
+    } else {
+      this.shrinking_player_Timer = Math.max(0,this.shrinking_player_Timer-time)
+    }
+    if(this.recover_shrinkage) { //added 07.02.2024
+      this.radiusAdditioner = (15/this.effectReplayer)/32 - 0.1*Math.ceil(this.shrinking_player_Timer/800);
+      if(this.shrinking_player_Timer==0) {
+        this.radius = 15 / 16 / 2;
+        this.recover_shrinkage=0;
+      }
+    }
     if(this.disabling) {
       this.firstAbilityPressed = false;
       this.secondAbilityPressed = false;
@@ -752,6 +776,7 @@ class Player {
     this.inEnemyBarrier = false;
     this.charging = false;
     this.burning = false;
+    this.shrink_player = false; //added 07.02.2024
     this.slippery = false;
     this.firstAbilityCooldown -= time;
     this.secondAbilityCooldown -= time;
@@ -2369,7 +2394,7 @@ class Liquid extends Enemy {
     }
   }
 }
-class Sizing extends Enemy {
+class Sizing extends Enemy { //VV orange balls
   constructor(pos, radius, speed, angle) {
     super(pos, entityTypes.indexOf("sizing") - 1, radius, speed, angle, "#f27743");
     this.growing = true;
@@ -2953,7 +2978,7 @@ class Enlarging extends Enemy {
   }
   auraEffect(player, worldPos) {
     if (distance(player.pos, new Vector(this.pos.x + worldPos.x, this.pos.y + worldPos.y)) < player.radius + this.auraSize) {
-      player.radiusAdditioner = (15+10/player.effectReplayer)/32;
+      player.radius = (15+10/player.effectReplayer)/32; //07.02.2024
     }
   }
 }
@@ -4238,7 +4263,7 @@ class Poison_Ghost extends Enemy {
   }
 }
 
-class Burning extends Enemy {
+class Burning extends Enemy { // need this to create shrinking enemies
   constructor(pos, radius, speed, angle, auraRadius) {
     super(pos, entityTypes.indexOf("burning") - 1, radius, speed, angle, "#FFA500", true, "rgba(255, 165, 0, 0.3)", (auraRadius) ? auraRadius / 32 : 120 / 32);
     this.isLight = true;
@@ -4246,7 +4271,8 @@ class Burning extends Enemy {
   }
   auraEffect(player, worldPos) {
     if (distance(player.pos, new Vector(this.pos.x + worldPos.x, this.pos.y + worldPos.y)) < player.radius + this.auraSize) {
-      player.burning = true;
+      // player.burning = true;
+      player.shrink_player = true;
     }
   }
 }

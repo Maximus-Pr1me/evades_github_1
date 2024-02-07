@@ -234,7 +234,7 @@ var centralCore = {
               count: 4,
               radius: 18,
               speed: 4,
-              types: ["normal"],
+              types: ["burning"], //changed from "normal" for testing
             },
           ],
         },
