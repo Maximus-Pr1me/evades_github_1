@@ -2339,6 +2339,7 @@ class Draining extends Enemy {
     }
   }
 }
+
 class Oscillating extends Enemy {
   constructor(pos, radius, speed, angle) {
     super(pos, entityTypes.indexOf("oscillating") - 1, radius, speed, angle, "#869e0f");
@@ -2353,6 +2354,7 @@ class Oscillating extends Enemy {
     this.clock = this.clock % 1000;
   }
 }
+
 class Turning extends Enemy {
   constructor(pos, radius, speed, angle) {
     super(pos, entityTypes.indexOf("turning") - 1, radius, speed, angle, "#336600");
@@ -4279,6 +4281,19 @@ class Burning extends Enemy {
 class Reducing extends Enemy { // need this to create shrinking enemies
   constructor(pos, radius, speed, angle, auraRadius) {
     super(pos, entityTypes.indexOf("reducing") - 1, radius, speed, angle, "#262A2C", true, "rgba(38, 42, 44, 0.3)", (auraRadius) ? auraRadius / 32 : 120 / 32);
+    this.isLight = true;
+    this.lightCount = 120+60;
+  }
+  auraEffect(player, worldPos) {
+    if (distance(player.pos, new Vector(this.pos.x + worldPos.x, this.pos.y + worldPos.y)) < player.radius + this.auraSize) {
+      player.shrink_player = true;
+    }
+  }
+}
+
+class Blocking extends Enemy { // need this to create shrinking enemies
+  constructor(pos, radius, speed, angle, auraRadius) {
+    super(pos, entityTypes.indexOf("blocking") - 1, radius, speed, angle, "#262A2C", true, "rgba(38, 42, 44, 0.9)", (auraRadius) ? auraRadius / 32 : 120 / 32);
     this.isLight = true;
     this.lightCount = 120+60;
   }

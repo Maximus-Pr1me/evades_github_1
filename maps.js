@@ -234,7 +234,7 @@ var centralCore = {
               count: 4,
               radius: 18,
               speed: 4,
-              types: ["reducing"], //changed from "normal" for testing
+              types: ["Reducing"], //changed from "normal" for testing
             },
           ],
         },
