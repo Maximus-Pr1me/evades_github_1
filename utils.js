@@ -53,6 +53,7 @@ var entityTypes = [
   "wind",
   "wind_ghost",
   "burning",
+  "reducing",
   "sticky_sniper",
   "sticky_trail",
   "clown_trail",

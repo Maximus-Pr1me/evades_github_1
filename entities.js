@@ -4263,7 +4263,7 @@ class Poison_Ghost extends Enemy {
   }
 }
 
-class Burning extends Enemy { // need this to create shrinking enemies
+class Burning extends Enemy {
   constructor(pos, radius, speed, angle, auraRadius) {
     super(pos, entityTypes.indexOf("burning") - 1, radius, speed, angle, "#FFA500", true, "rgba(255, 165, 0, 0.3)", (auraRadius) ? auraRadius / 32 : 120 / 32);
     this.isLight = true;
@@ -4271,7 +4271,19 @@ class Burning extends Enemy { // need this to create shrinking enemies
   }
   auraEffect(player, worldPos) {
     if (distance(player.pos, new Vector(this.pos.x + worldPos.x, this.pos.y + worldPos.y)) < player.radius + this.auraSize) {
-      // player.burning = true;
+      player.burning = true;
+    }
+  }
+}
+
+class Reducing extends Enemy { // need this to create shrinking enemies
+  constructor(pos, radius, speed, angle, auraRadius) {
+    super(pos, entityTypes.indexOf("reducing") - 1, radius, speed, angle, "#262A2C", true, "rgba(38, 42, 44, 0.3)", (auraRadius) ? auraRadius / 32 : 120 / 32);
+    this.isLight = true;
+    this.lightCount = 120+60;
+  }
+  auraEffect(player, worldPos) {
+    if (distance(player.pos, new Vector(this.pos.x + worldPos.x, this.pos.y + worldPos.y)) < player.radius + this.auraSize) {
       player.shrink_player = true;
     }
   }

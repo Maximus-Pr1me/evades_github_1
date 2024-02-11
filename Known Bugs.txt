@@ -1,0 +1,7 @@
+Known bugs:
+
+- Sometimes Brute loses cooldown and can spam ability non-stop
+- When Shade dies, Vengeance balls do not get despawned
+- As Brute, cannot properly reverse shrinking.
+- When Brute pushes balls, they get teleported instead of being pushed.
+- When dying, spawns too close to the edge of map and gets teleported to a different map

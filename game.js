@@ -953,6 +953,9 @@ class Area {
           if (this.preset[i].type[rand] == "burning") {
             enemy = new Burning(new Vector(posX, posY), radius / 32, speed, angle, auraRadius)
           }
+          if (this.preset[i].type[rand] == "reducing") {
+            enemy = new Reducing(new Vector(posX, posY), radius / 32, speed, angle, auraRadius)
+          }
           if (this.preset[i].type[rand] == "sticky_sniper") {
             enemy = new StickySniper(new Vector(posX, posY), radius / 32, speed, angle)
           }
